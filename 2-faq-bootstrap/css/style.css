@@ -1,0 +1,29 @@
+.title {
+    text-align: center;
+    color: grey;
+}
+    
+.accordion-header:active {
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.accordion-button::after {
+    content: none;
+}
+
+.accordion-button:not(.collapsed) {
+    text-decoration-line: underline;
+    background-color: rgb(246, 238, 238);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
