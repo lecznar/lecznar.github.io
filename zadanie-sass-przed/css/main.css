@@ -84,6 +84,8 @@
 /*==========  1.1 - @import(s)  ==========*/
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic&subset=latin,latin-ext);
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Raleway:wght@100&display=swap");
 /***/
 /*==========  1.2 - Fonts  ==========*/
 /***/
@@ -10553,15 +10555,15 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #5b5b5b;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 body a, body input, body p {
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 body h1, body h2, body h3, body h4, body h5, body h6 {
   text-transform: uppercase;
   color: #222222;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   margin-bottom: 24px;
   margin-top: 24px;
 }
@@ -10811,7 +10813,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-weight: 700;
   text-transform: uppercase;
   background-color: #f0f4dc;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -10831,7 +10833,7 @@ header.header-image .header-content .header-content-inner h5 {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
 }
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
   background-color: #f0f4dc;
@@ -10922,7 +10924,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-weight: 700;
     text-transform: uppercase;
     background-color: #f0f4dc;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: 0;
@@ -10939,7 +10941,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -10985,7 +10987,7 @@ header.header-image .header-content .header-content-inner h5 {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Lato Regular", Helvetica, sans-serif;
+    font-family: "Archivo Black", sans-serif;
   }
   .navbar-default.affix .open .dropdown-menu > li > a:hover, .navbar-default.affix .open .dropdown-menu > li > a:focus {
     background-color: #f0f4dc;
@@ -11086,7 +11088,7 @@ header.header-image .header-content .header-content-inner h5 {
   width: 40px;
   height: 40px;
   font-size: 32px;
-  font-family: "Lato Regular", Helvetica, sans-serif;
+  font-family: "Archivo Black", sans-serif;
   line-height: 35.2px;
   margin: 0;
   z-index: 11;
@@ -11555,7 +11557,7 @@ form fieldset input[name=comment], form fieldset input[name=message] {
 }
 .t108-page time {
   font-size: 20px;
-  font-family: "Lato Bold", Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #222222;
   text-transform: uppercase;
 }
@@ -11635,12 +11637,10 @@ form fieldset input[name=comment], form fieldset input[name=message] {
   width: 96px;
   height: 96px;
   border-radius: 100%;
-  line-height: 72px;
+  line-height: 96px;
   background-color: #a5e200;
   margin: 0 auto 24px;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
 }
 @media (max-width: 768px) {
   .t108-one-page #about {
